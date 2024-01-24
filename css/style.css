@@ -1,0 +1,100 @@
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../assets/events-heavenly-header.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home .home-content {
+  color: white;
+}
+
+aside {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -250px;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  gap: 20px;
+}
+aside .aside-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #111;
+  width: 250px;
+  padding: 10px 20px;
+}
+aside .aside-content a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+aside .aside-content a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+
+aside .open-sidemenu {
+  align-self: center;
+}
+
+aside .open-sidemenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+aside .closebtn {
+  align-self: flex-end;
+}
+
+aside .closebtn a {
+  font-size: 35px;
+}
+
+
+
+#sliderDown
+{
+    margin: 100px auto;
+    width: 50%;
+    
+}
+
+#sliderDown h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+
+#sliderDown div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+
+
+#sliderDown .first{
+    display:block;
+}
