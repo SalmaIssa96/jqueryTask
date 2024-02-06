@@ -67,34 +67,142 @@ aside .closebtn a {
   font-size: 35px;
 }
 
-
-
-#sliderDown
-{
-    margin: 100px auto;
-    width: 50%;
-    
+#sliderDown {
+  margin: 100px auto;
+  width: 50%;
 }
 
-#sliderDown h3
-{
-    padding: 10px;
-    margin: 0;
-    background-color: rgba(214, 46, 51 , 0.6);
-    cursor: pointer;
-    color: white;
+#sliderDown h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+
+#sliderDown div {
+  padding: 10px;
+  background-color: #ccc;
+  display: none;
+}
+
+#sliderDown .first {
+  display: block;
+}
+
+#duration {
+  background-image: url(../assets/invitation-2508607__340.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+}
+
+.duration-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+
+.container {
+  padding: 100px 0px;
+}
+
+.time {
+  padding: 50px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 30px;
 }
 
 
-#sliderDown div
-{
-    padding: 10px;
-    background-color: #ccc;
-    display: none;
+#contact{
+  margin-top:100px;
 }
 
+#contact .header h2{
+  text-transform: uppercase;
+  font-size: 35px;
+  color:#444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#contact .header p{
+  color:#777;
+  font-weight: 300;
+  font-size: 16px;
+}
+#contact .contact-info h3{
+  color:#444;
+  font-size: 18px;
+  font-weight: bold;
+}
+#contact .contact-info p{
+  font-size: 16px;
+  line-height: 26px;
+  color:#777;
+}
 
+#contact .icons{
+  margin-top:50px;
+}
+#contact .icons p{
+  margin-bottom: 35px;
+}
+#contact i{
+  margin-right: 20px;
+  color:#777;
+}
+#contact .red{
+  color:#D62E33 !important;
+}
 
-#sliderDown .first{
-    display:block;
+#contact .contact-info .social-list{
+  margin-top:60px;
+  color:#777;
+  
+}
+#contact .contact-info .social-list i{
+  margin-right: 10px;
+  border:1px solid #999;
+  width:40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+#contact .contact-info .social-list i:hover{
+  color:#fff;
+  background-color: #D62E33;
+  border:1px solid #D62E33;
+}
+#contact form input,
+#contact form textarea{
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+#contact form textarea{
+  height: 200px;
+  resize:vertical;
+}
+
+#contact form button{
+  background-color: #D62E33;
+  color:#fff;
+  padding:10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 20px;
+}
+
+#chars
+{
+  font-size: 20px;
+  color: #D62E33;
 }
